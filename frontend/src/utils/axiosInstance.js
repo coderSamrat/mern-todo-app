@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const VITE_BASE_URL = "http://localhost:9883";
+const VITE_BASE_URL = "https://mern-todo-app-h25k.onrender.com";
 
 const axiosInstance = axios.create({
       baseURL: VITE_BASE_URL,
